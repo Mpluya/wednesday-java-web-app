@@ -1,0 +1,22 @@
+id: 908f14d5-21b0-4720-a472-de969d7fb4e8
+timestamp: 2023-12-13T15:05:33.691Z
+source: TAP-GUI
+username: mpluya
+accelerator:
+  name: tanzu-java-web-app
+fragments:
+  - name: build-wrapper-gradle
+  - name: build-wrapper-maven
+  - name: devcontainer
+  - name: java-version
+  - name: tap-workload
+options:
+  bsGitBranch: main
+  projectName: wednesday-java-web-app
+  buildTool: maven
+  springBootVersion: 3.1
+  nativeBuild: false
+  javaVersion: 17
+  includeBuildToolWrapper: true
+  includeDevContainer: false
+  bsGitRepository: github.com?owner=Mpluya&repo=wednesday-java-web-app
